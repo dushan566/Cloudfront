@@ -9,7 +9,7 @@ Sometimes we need to host our resources/contents in a file server and retrieve t
 Some examples of Cloudfront behaviors added to disable cache for certain file extension types. Eg/- *.json, *.js, *.css.  This will help you to prevent dynamic content caching if the origin S3 is updating with the latest very frequently.
 
 ## Folder structure
-
+![Folder Structure](https://github.com/dushan566/Cloudfront/blob/main/Folder_structure.PNG?raw=true)
 
 
 ## prerequisite
