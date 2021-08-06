@@ -1,4 +1,4 @@
-# Usage
+## Usage
 
 ```
 module "lambda_edge_rule" {

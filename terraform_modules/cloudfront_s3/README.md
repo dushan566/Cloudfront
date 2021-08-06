@@ -1,4 +1,4 @@
-# Usage
+## Usage
 
 ```
 module "cloudfront_s3" {
