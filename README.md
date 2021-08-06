@@ -4,8 +4,6 @@ Following use cases are addressed under this solution.
 
 If you want to host a static website on AWS S3 bucket and service traffic through a Cloudfront distribustion,
 
-
-## Use  case 1
 Move your application/file server resources/contents to S3 and access though Cloudfront
 
 Sometimes we need to host our resources/contents in a file server and retrieve them through a frontend website. In this case you have to use "cloudfront_s3" module and make the S3 ACL as "private"
