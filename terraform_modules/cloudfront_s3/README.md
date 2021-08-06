@@ -1,6 +1,6 @@
 # Usage
 
-`
+```
 module "cloudfront_s3" {
   source = "../../terraform_modules/cloudfront_s3"
   application              = var.application
@@ -16,7 +16,7 @@ module "cloudfront_s3" {
   aliases                  = ["subdomain1.example.com","subdomain2.example.com", "subdomain3.example.com"]
   tags                     = var.tags
 }
-`
+```
 
 ## Providers
 

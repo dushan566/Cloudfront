@@ -1,5 +1,6 @@
 #Usage
 
+```
 module "iam_role" {
   source = "../terraform_modules/iam_role"
   application = var.application
@@ -15,7 +16,7 @@ module "iam_role" {
   ]
   tags = var.tags
 }
-
+```
 
 ## Providers
 

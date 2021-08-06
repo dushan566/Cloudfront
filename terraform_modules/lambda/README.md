@@ -1,6 +1,6 @@
 # Usage
 
-`
+```
 module "lambda_edge_rule" {
   source = "../../terraform_modules/lambda"
   application = var.application
@@ -14,7 +14,7 @@ module "lambda_edge_rule" {
   distribution_arn         = module.cloudfront.distribution_arn
   tags = var.tags
 }
-`
+```
 
 
 

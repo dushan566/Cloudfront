@@ -1,13 +1,13 @@
 #Usage
 
-`
+```
 module "s3" {
   source = "../../terraform_modules/s3"
   s3_bucket_name           = "my-example-s3bucket.com"
   acl                      = var.acl
   tags                     = var.tags
 }
-`
+```
 ## Providers
 
 | Name | Version |
