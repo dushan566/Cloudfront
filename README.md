@@ -33,4 +33,11 @@ Primary partition key =	LockID (String)
 3. Admin Access to AWS account
 
 ## Main executable location
-Cloudfront_terraform >> environments >> demo >> s3_cdn
+environments >> demo >> s3_cdn
+
+## Usage
+terraform init
+terraform validate 
+terraform plan -var-file=values.tfvars -out=terraform.out
+terraform apply "terraform.out"
+terraform destroy -var-file=values.tfvars
