@@ -36,8 +36,10 @@ Primary partition key =	LockID (String)
 environments >> demo >> s3_cdn
 
 ## Usage
+```
 terraform init
 terraform validate 
 terraform plan -var-file=values.tfvars -out=terraform.out
 terraform apply "terraform.out"
 terraform destroy -var-file=values.tfvars
+```
