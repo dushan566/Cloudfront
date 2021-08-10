@@ -40,3 +40,8 @@ terraform plan -var-file=values.tfvars -out=terraform.out
 terraform apply "terraform.out"
 terraform destroy -var-file=values.tfvars
 ```
+
+## Additional 
+The lambda function will fix any additional slashes in your application URLs.
+https://www.example.com/apps//file1.pdf
+https://www.example.com/books//2021///book1.html
